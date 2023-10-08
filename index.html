@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4th project</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/fonts/bootstrap-icons.css">
+ <link rel="stylesheet" href="assets/css/aos.css">
+ <link rel="stylesheet" href="assets/css/slick-theme.css">
+ <link rel="stylesheet" href="assets/css/slick.css">
+</head>
+
+<body>
+  <!--navbar start-->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-uppercase text-white fw-bold" href="#">logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"> <span><i
+                  class="bi bi-box-arrow-in-right"></i></span>SIGNIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">REGISTRATION</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <!--navbar end-->
+  <!--slider sttart-->
+  <div class="hero-slider">
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/images/slider/slider2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/slider/slider3.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/slider/slider1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!--slider end-->
+  <div class="content">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <div class="search-area">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div class="list-group pt-4">
+              <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                All Catagary
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">A Brand Lipstick</a>
+              <a href="#" class="list-group-item list-group-item-action">A Brand Powder</a>
+              <a href="#" class="list-group-item list-group-item-action">A Brand Eye Shadow</a>
+              <a class="list-group-item list-group-item-action disabled" aria-disabled="true">A Brand Foundation</a>
+
+            </div>
+            <div class="list-group pt-4">
+              <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+
+                Rent
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">400tk-1000tk</a>
+              <a href="#" class="list-group-item list-group-item-action">800tk-1500tk</a>
+              <a href="#" class="list-group-item list-group-item-action">300tk-700tk</a>
+              <a class="list-group-item list-group-item-action disabled" aria-disabled="true">2000tk-5000tk</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12">
+          <div class="product-card">
+            <div class="row">
+             <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/eye shadow.jpg" class="card-img-top" alt="eye shadow">
+                  <div class="card-body">
+                    <h5 class="card- title">
+                      <a href="#">Eye Shadow</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳800tk</span>
+                    <del>1000tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card"  data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/images.jpeg" class="card-img-top" alt="lip stick">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#">Lip Stick</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳500tk</span>
+                    <del>800tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card"  data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/foundation.jpeg" class="card-img-top" alt="Foundation">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#">Foundation</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳2500tk</span>
+                    <del>3000tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/powder.jpg" class="card-img-top" alt="powder">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#">Powder</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳500tk</span>
+                    <del>800tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/eye shadow.jpg" class="card-img-top" alt="eye shadow">
+                  <div class="card-body">
+                    <h5 class="card- title">
+                      <a href="#">Eye Shadow</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳800tk</span>
+                    <del>1000tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/images.jpeg" class="card-img-top" alt="lip stick">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#">Lip Stick</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳500tk</span>
+                    <del>800tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/foundation.jpeg" class="card-img-top" alt="Foundation">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#">Foundation</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳2500tk</span>
+                    <del>3000tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/powder.jpg" class="card-img-top" alt="powder">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#">Powder</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳500tk</span>
+                    <del>800tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/eye shadow.jpg" class="card-img-top" alt="eye shadow">
+                  <div class="card-body">
+                    <h5 class="card- title">
+                      <a href="#">Eye Shadow</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳800tk</span>
+                    <del>1000tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/images.jpeg" class="card-img-top" alt="lip stick">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#">Lip Stick</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳500tk</span>
+                    <del>800tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/foundation.jpeg" class="card-img-top" alt="Foundation">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#">Foundation</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳2500tk</span>
+                    <del>3000tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-3 col-sm-12">
+                <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                  <img src="assets/images/product/powder.jpg" class="card-img-top" alt="powder">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <a href="#">Powder</a>
+                    </h5>
+                    <div class="ratting">
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-fill"></i></span>
+                      <span><i class="bi bi-star-half"></i></span>
+                    </div>
+                    <p class="card-text mt-2 mb-2"></p>
+                    <span class="fw-bold">Price:৳500tk</span>
+                    <del>800tk</del>
+
+                    <button type="button" class="btn btn-primary"> <i class="bi bi-cart-x"></i>Add To Cart</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--pagination start-->
+          <div class="pagination-area">
+            <nav aria-label="...">
+              <ul class="pagination">
+                <li class="page-item disabled">
+                  <a class="page-link">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active" aria-current="page">
+                  <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!--pagination end-->
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--testimonial start-->
+
+ <div class="container m-5">
+  <div class="testimonial-area">
+    <div class="row g-3 responsive">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="d-flex">
+            <div class="images">
+              <img src="assets/images/testimonial/1.webp" class="img-fluid" alt="">
+            </div>
+            <div class="name">
+              <h3>Ayesha siddika</h3>
+              <span>Web developer</span>
+            </div>
+          </div>
+          <div class="card-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cupiditate non ducimus, adipisci autem numquam laborum ad enim assumenda. Sapiente, nisi! Illo ea rem commodi?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4">
+          <div class="d-flex gap-3">
+            <div class="images">
+              <img src="assets/images/testimonial/1.webp" class="img-fluid" alt="">
+            </div>
+            <div class="name">
+              <h3>Ayesha siddika</h3>
+              <span>Web developer</span>
+            </div>
+          </div>
+          <div class="card-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cupiditate non ducimus, adipisci autem numquam laborum ad enim assumenda. Sapiente, nisi! Illo ea rem commodi?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4">
+          <div class="d-flex gap-3">
+            <div class="images">
+              <img src="assets/images/testimonial/1.webp" class="img-fluid" alt="">
+            </div>
+            <div class="name">
+              <h3>Ayesha siddika</h3>
+              <span>Web developer</span>
+            </div>
+          </div>
+          <div class="card-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cupiditate non ducimus, adipisci autem numquam laborum ad enim assumenda. Sapiente, nisi! Illo ea rem commodi?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4">
+          <div class="d-flex gap-3">
+            <div class="images">
+              <img src="assets/images/testimonial/1.webp" class="img-fluid" alt="">
+            </div>
+            <div class="name">
+              <h3>Ayesha siddika</h3>
+              <span>Web developer</span>
+            </div>
+          </div>
+          <div class="card-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cupiditate non ducimus, adipisci autem numquam laborum ad enim assumenda. Sapiente, nisi! Illo ea rem commodi?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4">
+          <div class="d-flex gap-3">
+            <div class="images">
+              <img src="assets/images/testimonial/1.webp" class="img-fluid" alt="">
+            </div>
+            <div class="name">
+              <h3>Ayesha siddika</h3>
+              <span>Web developer</span>
+            </div>
+          </div>
+          <div class="card-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cupiditate non ducimus, adipisci autem numquam laborum ad enim assumenda. Sapiente, nisi! Illo ea rem commodi?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4">
+          <div class="d-flex gap-3">
+            <div class="images">
+              <img src="assets/images/testimonial/1.webp" class="img-fluid" alt="">
+            </div>
+            <div class="name">
+              <h3>Ayesha siddika</h3>
+              <span>Web developer</span>
+            </div>
+          </div>
+          <div class="card-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias cupiditate non ducimus, adipisci autem numquam laborum ad enim assumenda. Sapiente, nisi! Illo ea rem commodi?</p>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+ </div>
+
+  <!--testimonial end-->
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+ 
+</body>
+
+</html>
